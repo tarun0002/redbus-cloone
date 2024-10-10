@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------Nav Bar----------------*/
+nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+
+.navbar-left #image{
+    height: 140px;
+    width: 150px;
+}
+.navbar-left{
+   gap: 20px;
+   display: flex;
+   align-items: center;
+}
+.navbar-left button{
+    width: 130px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+}
+.navbar-left #special{
+    background-color: rgb(179, 14, 14);
+    color: white;
+}
+.navbar-right{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.navbar-right button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background: white;
+}
+/*--------Bus search Bar------------*/
+.verticle-line{
+    border-left: 5px solid black;
+    height: 50px;
+}
+.search{
+     text-align: center;
+    background-image: url("./images/backgroud.jpeg");
+     background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.search-input{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin: auto;
+   
+}
+.search-input input{
+   width: 300px;
+   padding: 20px;
+}
+.search-input i{
+    display: flex;
+    align-items: center;
+}
+.search-input button{
+    width: 200px;
+    background-color: brown;
+    color: wheat;
+}
+.search-input{
+    margin-top: 300px;
+}
+.search-input+h1{
+    margin-top: 250px;
+    color: bisque;
+}
+/*---------Offer Section-----------------*/
+.offers{
+    border: 1px solid black;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+.offers-head{
+    display: flex;
+    justify-content: space-between;
+}
+.offers-head a{
+    border: none;
+    border-radius: 50px;
+    max-height: 40px;
+    width: 100px;
+    line-height: 2;
+    background-color: azure;
+    margin-right: 20px;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.offers-box{
+    border: 1px solid black;
+    padding: 20px;
+}
+.offers-card{
+    border: 1px solid black;
+    width: 250px;
+    display: flex;
+    
+}
+.offers-card .offers-copy{
+    display: flex;
+    justify-content: space-around;
+}
